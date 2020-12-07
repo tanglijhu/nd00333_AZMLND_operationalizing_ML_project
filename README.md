@@ -26,6 +26,9 @@ The dataset used contains the bank marketing information including age, job, mar
     
 ## Architectural Diagram
 
+The architechtural diagram is illustrated in the chart as below:
+
+![architechtural diagram](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/Architectural-Diagram.png?raw=true)
 
 For the real-time endpoint: 
 With the registered bank marketing dataset, a classification automated machine learning training was performed with a criteria of "accuracy". 
