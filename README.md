@@ -16,7 +16,7 @@ The dataset used contains the bank marketing information including age, job, mar
   * [running swagger on localhost showing the HTTP API methods and responses from the model](#running-swagger-on-localhost-showing-the-HTTP-API-methods-and-responses-from-the-model)
   * [running endpoint file against the API producing JSON output from the model](#running-endpoint-file-against-the-API-producing-JSON-output-from-the-model)
   * [active REST pipeline endpoint](#active-REST-pipeline-endpoint)
-  * [Use RunDetails Widget in Jupyter Notebook](#use-rundetails-widget-in-jupyter-notebook)
+  * [use RunDetails widget in Jupyter Notebook](#use-rundetails-widget-in-jupyter-notebook)
   * [scheduled run](#scheduled-run)
 - [Key Steps](#key-steps)
 - [Screen Recording](#screen-recording)
@@ -75,7 +75,7 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ### active REST pipeline endpoint
 ![pipeline endpoint](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/active-rest-pipeline-endpoint_new.PNG?raw=true)
 
-### Use RunDetails Widget in Jupyter Notebook
+### use RunDetails widget in Jupyter Notebook
 ![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
 ![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
 
@@ -102,13 +102,12 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 
 ## Screen-Recording
 
-Below is the link to a [screen recording](https://youtu.be/f7VzVPqbxpY) of the project in action: 
+A [screen recording](https://youtu.be/f7VzVPqbxpY) of the project is provided to demonstrate the following steps: 
 
-The screencast demonstrates:
-1) a working deployed ML model endpoint;
-2) the deployed endpoint;
-3) the best AutoML model;
-4) successful API requests to the endpoint with a JSON payload. 
+* a working deployed ML model endpoint
+* the deployed endpoint
+* the best AutoML model
+* successful API requests to the endpoint with a JSON payload 
 
 ## Suggestions-to-Improve
 
