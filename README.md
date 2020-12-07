@@ -44,77 +44,60 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ## Screenshots
 
 ### registered dataset
-![registered dataset](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/registered%20datasets.PNG?raw=true)
+![registered dataset](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/registered%20datasets_new.PNG?raw=true)
+
 ### completed automated machine learning 
-![completed automated machine learning ](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/auto-ml-completed.PNG?raw=true)
+![completed automated machine learning ](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/auto-ml-completed_new.PNG?raw=true)
+
 ### best model
-![best model](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/best%20model%20-%201.PNG?raw=true)
+![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
+![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true)
+
 ### "Application Insights" enabled 
-![Application Insights enabled](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/endpoint-after-running-log-file.PNG?raw=true)
+![Application Insights enabled](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/endpoint-after-running-log-file_new.PNG?raw=true)
+
 ### running "logs.py"
-![running "logs.py"](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/running-logs-file.PNG?raw=true)
+![running "logs.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-logs-file_new.PNG?raw=true)
+
 ### running swagger on localhost showing the HTTP API methods and responses from the model
-![running swagger](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/swagger-running.PNG?raw=true)
+![running swagger 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get-1_new.PNG?raw=true)
+![running swagger 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get-2_new.PNG?raw=true)
+![running swagger 3](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post-1_new.PNG?raw=true)
+![running swagger 4](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post-1_new.PNG?raw=true)
+
 ### running "endpoint.py" against the API producing JSON output from the model
-![running "endpoint.py"](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/running-endpoint.PNG?raw=true)
+![running "endpoint.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-endpoint_new.PNG?raw=true)
+
 ### created pipeline
-![created pipeline](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/pipeline-created.PNG?raw=true)
+![created pipeline](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/pipeline-created_new.PNG?raw=true)
+
 ### pipeline endpoint
-![pipeline endpoint](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/pipeline-endpoint.PNG?raw=true)
+![pipeline endpoint](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/active-rest-pipeline-endpoint_new.PNG?raw=true)
+
 ### "Use RunDetails Widget" in Jupyter Notebook
-![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/RunDetails-Widget-1.PNG?raw=true)
-![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/RunDetails-Widget-2.PNG?raw=true)
+![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
+![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
+
 ### scheduled run
-![scheduled run](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/scheduled-run-pipeline-rest-endpoint.PNG?raw=true)
+![scheduled run](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/scheduled-run-pipeline-rest-endpoint_new.PNG?raw=true)
 
 
 ## Key-Steps
 
 ### Step 1: bank marketing dataset registration
 
-registered dataset:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/registered%20datasets.PNG?raw=true)
+### Step 2: Azure automated machine training as a classification problem with a creteria of "accuracy"
 
-### Step 2: automated machine training as a classification problem with a creteria of "accuracy"
+### Step 3: best model generation as of "VotingEnsemble" (accuracy as ~ 0.92) and registration
 
-completed automated machine learning: 
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/auto-ml-completed.PNG?raw=true)
+### Step 4: an real-time endpoint deployment from the best model:
 
-### Step 3: best model generation "VotingEnsemble"
+- running "logs.py" to enable the Application Insights" 
+- running swagger on localhost showing the HTTP API methods (both of GET and POST) and responses from the model
 
-best model:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/best%20model%20-%201.PNG?raw=true)
+### Step 5: real time predictions with the provided "endpoint.py" file
 
-### Step 4: REST endpoint deployment:
-
-"Application Insights" enabled: 
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/endpoint-after-running-log-file.PNG?raw=true)
-
-running "logs.py":
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/running-logs-file.PNG?raw=true)
-
-running swagger on localhost showing the HTTP API methods and responses from the model:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/swagger-running.PNG?raw=true)
-
-### Step 5: prediction testing with the provided "endpoint.py" file
-
-running "endpoint.py" against the API producing JSON output from the model:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/running-endpoint.PNG?raw=true)
-
-### Step 6: create, publish, and consume a pipeline using the provided Jupyter Notebook 
-
-created pipeline:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/pipeline-created.PNG?raw=true)
-
-pipeline endpoint:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/pipeline-endpoint.PNG?raw=true)
-
-"Use RunDetails Widget" in Jupyter Notebook:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/RunDetails-Widget-1.PNG?raw=true)
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/RunDetails-Widget-2.PNG?raw=true)
-
-scheduled run:
-![alt text](https://github.com/tanglijhu/nd00333_AZMLND_C2/blob/tanglijhu-patch-2/scheduled-run-pipeline-rest-endpoint.PNG?raw=true)
+### Step 6: creating, publishing, and consuming a REST pipeline endpoint with schduled predictions using the provided Jupyter Notebook "aml-pipelines-with-automated-machine-learning-step.ipynb"
 
 ## Screen-Recording
 
