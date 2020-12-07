@@ -7,20 +7,25 @@ The dataset used contains the bank marketing information including age, job, mar
 # Table of Contents
 <!--ts-->
 - [Architectural Diagram](#architectural-diagram)
-  * [Sub-heading](#sub-heading)
-    + [Sub-sub-heading](#sub-sub-heading)
 - [Screenshots](#screenshots)
-  * [Sub-heading](#sub-heading-1)
+  * [registered dataset](#registered-dataset)
+  * [completed automated machine learning ](#completed-automated-machine-learning )
+  * [best model](#best-model)
+  * [Application Insights enabled](#Application-Insights-enabled)
+  * [running "logs.py"](#running-"logs.py")
+  * [running swagger on localhost showing the HTTP API methods and responses from the model](#running-swagger-on-localhost-showing-the-HTTP-API-methods-and-responses-from-the-model)
+  * [running "endpoint.py" against the API producing JSON output from the model](#running-"endpoint.py"-against-the-API-producing-JSON-output-from-the-model)
+  * [active REST pipeline endpoint](#active-REST-pipeline-endpoint)
+  * [Use RunDetails Widget in Jupyter Notebook](#use-rundetails-widget-in-jupyter-notebook)
+  * [scheduled run](#scheduled-run)
+
+  
+  
     + [Sub-sub-heading](#sub-sub-heading-1)
 - [Key Steps](#key-steps)
-  * [Sub-heading](#sub-heading-2)
-    + [Sub-sub-heading](#sub-sub-heading-2)
 - [Screen Recording](#screen-recording)
-  * [Sub-heading](#sub-heading-3)
-    + [Sub-sub-heading](#sub-sub-heading-3)
 - [Suggestions to Improve](#suggestions-to-improve)
-  * [Sub-heading](#sub-heading-4)
-    + [Sub-sub-heading](#sub-sub-heading-4)
+ 
 <!--te-->  
 
     
@@ -53,7 +58,7 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ![best model 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%201_new.PNG?raw=true)
 ![best model 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/best%20model%20-%202_new.PNG?raw=true)
 
-### "Application Insights" enabled 
+### Application Insights enabled 
 ![Application Insights enabled](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/endpoint-after-running-log-file_new.PNG?raw=true)
 
 ### running "logs.py"
@@ -71,10 +76,10 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ### created pipeline
 ![created pipeline](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/pipeline-created_new.PNG?raw=true)
 
-### pipeline endpoint
+### active REST pipeline endpoint
 ![pipeline endpoint](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/active-rest-pipeline-endpoint_new.PNG?raw=true)
 
-### "Use RunDetails Widget" in Jupyter Notebook
+### Use RunDetails Widget in Jupyter Notebook
 ![RunDetails Widget-1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-1_new.PNG?raw=true)
 ![RunDetails Widget-2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/RunDetails-Widget-2_new.PNG?raw=true)
 
