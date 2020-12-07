@@ -93,8 +93,8 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 
 * Step 4: an real-time endpoint deployment from the best model:
 
-- running "logs.py" to enable the Application Insights" 
-- running swagger on localhost showing the HTTP API methods (both of GET and POST) and responses from the model
+running "logs.py" to enable the Application Insights" 
+running swagger on localhost showing the HTTP API methods (both of GET and POST) and responses from the model
 
 * Step 5: real time predictions with the provided "endpoint.py" file
 
