@@ -60,9 +60,9 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ![running "logs.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-logs-file_new.PNG?raw=true)
 
 ### running swagger on localhost showing the HTTP API methods and responses from the model
-![running swagger 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get-1_new.PNG?raw=true)
-![running swagger 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get-2_new.PNG?raw=true)
-![running swagger 3](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post-1_new.PNG?raw=true)
+![running swagger 1](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get_new.PNG?raw=true)
+![running swagger 2](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-get-1_new.PNG?raw=true)
+![running swagger 3](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post_new.PNG?raw=true)
 ![running swagger 4](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post-1_new.PNG?raw=true)
 
 ### running "endpoint.py" against the API producing JSON output from the model
