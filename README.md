@@ -85,20 +85,20 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 
 ## Key-Steps
 
-### Step 1: bank marketing dataset registration
+* Step 1: bank marketing dataset registration
 
-### Step 2: Azure automated machine training as a classification problem with a creteria of "accuracy"
+* Step 2: Azure automated machine training as a classification problem with a creteria of "accuracy"
 
-### Step 3: best model generation as of "VotingEnsemble" (accuracy as ~ 0.92) and registration
+* Step 3: best model generation as of "VotingEnsemble" (accuracy as ~ 0.92) and registration
 
-### Step 4: an real-time endpoint deployment from the best model:
+* Step 4: an real-time endpoint deployment from the best model:
 
 - running "logs.py" to enable the Application Insights" 
 - running swagger on localhost showing the HTTP API methods (both of GET and POST) and responses from the model
 
-### Step 5: real time predictions with the provided "endpoint.py" file
+* Step 5: real time predictions with the provided "endpoint.py" file
 
-### Step 6: creating, publishing, and consuming a REST pipeline endpoint with schduled predictions using the provided Jupyter Notebook "aml-pipelines-with-automated-machine-learning-step.ipynb"
+* Step 6: creating, publishing, and consuming a REST pipeline endpoint with schduled predictions using the provided Jupyter Notebook "aml-pipelines-with-automated-machine-learning-step.ipynb"
 
 ## Screen-Recording
 
