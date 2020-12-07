@@ -12,16 +12,12 @@ The dataset used contains the bank marketing information including age, job, mar
   * [completed automated machine learning ](#completed-automated-machine-learning )
   * [best model](#best-model)
   * [Application Insights enabled](#Application-Insights-enabled)
-  * [running "logs.py"](#running-"logs.py")
+  * [running "logs.py"](#running-logs.py)
   * [running swagger on localhost showing the HTTP API methods and responses from the model](#running-swagger-on-localhost-showing-the-HTTP-API-methods-and-responses-from-the-model)
-  * [running "endpoint.py" against the API producing JSON output from the model](#running-"endpoint.py"-against-the-API-producing-JSON-output-from-the-model)
+  * [running "endpoint.py" against the API producing JSON output from the model](#running-endpoint.py-against-the-API-producing-JSON-output-from-the-model)
   * [active REST pipeline endpoint](#active-REST-pipeline-endpoint)
   * [Use RunDetails Widget in Jupyter Notebook](#use-rundetails-widget-in-jupyter-notebook)
   * [scheduled run](#scheduled-run)
-
-  
-  
-    + [Sub-sub-heading](#sub-sub-heading-1)
 - [Key Steps](#key-steps)
 - [Screen Recording](#screen-recording)
 - [Suggestions to Improve](#suggestions-to-improve)
