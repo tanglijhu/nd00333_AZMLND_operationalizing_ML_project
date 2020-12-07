@@ -12,9 +12,9 @@ The dataset used contains the bank marketing information including age, job, mar
   * [completed automated machine learning ](#completed-automated-machine-learning )
   * [best model](#best-model)
   * [Application Insights enabled](#Application-Insights-enabled)
-  * [running "logs.py"](#running-logs.py)
+  * [running logs file](#running-logs-file)
   * [running swagger on localhost showing the HTTP API methods and responses from the model](#running-swagger-on-localhost-showing-the-HTTP-API-methods-and-responses-from-the-model)
-  * [running "endpoint.py" against the API producing JSON output from the model](#running-endpoint.py-against-the-API-producing-JSON-output-from-the-model)
+  * [running endpoint file against the API producing JSON output from the model](#running-endpoint-file-against-the-API-producing-JSON-output-from-the-model)
   * [active REST pipeline endpoint](#active-REST-pipeline-endpoint)
   * [Use RunDetails Widget in Jupyter Notebook](#use-rundetails-widget-in-jupyter-notebook)
   * [scheduled run](#scheduled-run)
@@ -57,7 +57,7 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ### Application Insights enabled 
 ![Application Insights enabled](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/endpoint-after-running-log-file_new.PNG?raw=true)
 
-### running "logs.py"
+### running logs file
 ![running "logs.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-logs-file_new.PNG?raw=true)
 
 ### running swagger on localhost showing the HTTP API methods and responses from the model
@@ -66,7 +66,7 @@ The pipeline was publishd and the REST endpoint was generated to use for predict
 ![running swagger 3](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post_new.PNG?raw=true)
 ![running swagger 4](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/swagger-running-post-1_new.PNG?raw=true)
 
-### running "endpoint.py" against the API producing JSON output from the model
+### running endpoint file against the API producing JSON output from the model
 ![running "endpoint.py"](https://github.com/tanglijhu/nd00333_AZMLND_operationalizing_ML_project/blob/main/img/running-endpoint_new.PNG?raw=true)
 
 ### created pipeline
